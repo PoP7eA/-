@@ -18,6 +18,8 @@ python shutdown_timer.py
 
 如果希望直接通过 `shutdown_timer.exe` 打开界面，可以在 Windows 上使用 [PyInstaller](https://pyinstaller.org/) 打包：
 
+> 说明：当前仓库未内置现成的 `.exe` 可执行文件。请在 Windows 机器上按下述步骤自行生成（或在任何具备打包环境的 Windows 端生成后直接分发生成的 `dist/shutdown_timer.exe` 给最终用户）。
+
 1. 安装依赖：
 
    ```bash
